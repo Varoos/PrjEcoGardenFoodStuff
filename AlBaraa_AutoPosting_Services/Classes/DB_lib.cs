@@ -21,6 +21,14 @@ namespace AlBaraa_AutoPosting_Services.Classes
             
             return GetData(retrievequery,  ref error);
         }
+        public DataSet getReceiptEntry(int Vno, int CompId)
+        {
+            string retrievequery = string.Format($@"exec pCore_CommonSp @Operation=ReceiptEntry,@p1={Vno}");
+            _log.EventLog("retrievequery " + retrievequery);
+            _log.EventLog("CompId " + CompId.ToString());
+
+            return GetData(retrievequery, ref error);
+        }
 
         public DataSet getIfExists(string SourceDocNo)
         {
