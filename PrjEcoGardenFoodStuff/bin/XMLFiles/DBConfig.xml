@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DatabaseConfig>
+	<Database Active="1" Type="SQLServer" >
+		<Data_Source>DESKTOP-FSJQ8UA</Data_Source>
+		<Initial_Catalog>Focus8</Initial_Catalog>
+		<User_Id>sa</User_Id>
+		<Password>sa123</Password>
+	</Database>
+	<Database Active="0" Type="MySql" >
+		<Server></Server>
+		<Database></Database>
+		<Uid></Uid>
+		<Pwd></Pwd>
+	</Database>
+	<Database Active="0" Type="Oracle" >
+		<Data_Source></Data_Source>
+		<User_Id></User_Id>
+		<Password></Password>
+	</Database>
+	<Database Active="0" Type="PostgreSQL">
+		<Database></Database>
+		<User_Name></User_Name>
+	</Database>
+</DatabaseConfig>
